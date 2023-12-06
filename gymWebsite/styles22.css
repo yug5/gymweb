@@ -1,0 +1,490 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fdf0f0;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+/* Hero Section */
+/* ... (previous CSS code) ... */
+
+/* Hero Section */
+#home {
+    position: relative;
+    height: 83vh;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: url('bgimg.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 40px;
+    /* Ensure content appears above the background image */
+}
+
+/* ... (remaining CSS code) ... */
+
+
+/* About Us Section */
+/* ... (previous CSS code) ... */
+
+/* ... (previous CSS code) ... */
+
+/* About Us Section */
+#about {
+    background-color: #deceafc9;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the list items */
+.about-content li {
+    color: #666;
+}
+
+/* ... (remaining CSS code) ... */
+
+
+/* ... (remaining CSS code) ... */
+
+/* Classes Section */
+/* ... (previous CSS code) ... */
+
+/* Classes Section */
+/* ... (previous CSS code) ... */
+
+/* Classes Section */
+/* ... (previous CSS code) ... */
+
+/* Classes Section */
+#classes {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.classes-content {
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.class-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.class-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.class-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-info {
+    padding: 20px;
+}
+
+.class-info h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.class-info p {
+    color: #666;
+    margin: 0;
+}
+
+
+.flexit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ... (remaining CSS code) ... */
+
+/* Trainers Section */
+/* ... (previous CSS code) ... */
+
+/* Trainers Section */
+#trainers {
+    background-color: #f4f4f4;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.trainers-content {
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trainer-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.trainer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.trainer-info {
+    padding: 20px;
+}
+
+.trainer-info h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.trainer-info p {
+    color: #666;
+    margin: 0;
+}
+
+/* ... (remaining CSS code) ... */
+
+
+/* Membership Section */
+/* ... (previous CSS code) ... */
+
+/* Membership Section */
+#membership {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.membership-content {
+    /* display: flex; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membership-plan {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.membership-plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.membership-plan h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.plan-price {
+    color: #f57c00;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.membership-plan ul {
+    padding: 20px;
+    margin: 0;
+}
+
+.membership-plan li {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f57c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* ... (remaining CSS code) ... */
+
+/* Contact Us Section */
+/* ... (previous CSS code) ... */
+
+/* Contact Us Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-content p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f57c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+/* ... (remaining CSS code) ... */
+
+
+section {
+    /* height: 100vh; */
+    color: black;
+}
+
+/* Footer Section */
+/* ... (previous CSS code) ... */
+
+/* Footer Section */
+/* Footer Section */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5em;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #f57c00;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-contact p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.footer-bottom {
+    background-color: #111;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+
+
+/* ... (remaining CSS code) ... */
+
+
+ul {
+    list-style-type: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
